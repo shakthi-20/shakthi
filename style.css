@@ -288,12 +288,13 @@ body {
   color: #cbd5f5;
 }
 /* EDUCATION GRID */
+
 .edu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 350px));
-  gap: 25px;
-  justify-content: center;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* FIX */
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto 0 auto; /* centers */
 }
 
 /* CARD */
